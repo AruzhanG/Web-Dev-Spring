@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitten Image</title>
+  <style>
+    .kitten-image {
+      border: 5px dashed salmon;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 5px 5px 20px #ccc;
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .kitten-image:hover {
+      transform: scale(1.1);
+      box-shadow: 5px 5px 25px #888;
+    }
+  </style>
+</head>
+<body>
+  <img src="kitten.jpg" alt="Cute kitten" class="kitten-image">
+</body>
+</html>
