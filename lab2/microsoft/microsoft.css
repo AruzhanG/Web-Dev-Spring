@@ -182,6 +182,8 @@ header ul li a {
     font-size: 30px;
 }
 .info a{
+    justify-content:baseline;
+
     font-size: 20px;
     color: rgb(16, 99, 176);
     text-decoration: underline;
