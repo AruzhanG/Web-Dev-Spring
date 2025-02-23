@@ -95,21 +95,31 @@ header ul li a {
     text-decoration: none;
     background-color: #2045a3;
 }
+
 .cards {
-    margin: 70px;
+    display:flex;
+    align-items: stretch;
+    margin: 90px;
     margin-left: 70px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
     padding-top: 10%;
-}
+    align-items: stretch;
+    overflow: hidden;
+
+} 
+
+
 .card {
     width: 300px;
+    height: 100%;
     border: solid 2px rgba(216, 216, 216, 0.538);
     display: flex;
-    flex-direction: row;
-
+    flex-direction:column;
+    justify-content: space-between;
 }
+
 .card button{
     background-color: #184ed7;
     color: #fff;;
@@ -117,7 +127,9 @@ header ul li a {
     border: none;
     cursor: pointer;
     margin: 5%;
+    margin-top: auto;
 }
+
 .card button:hover{
     text-decoration: none;
     background-color: #2045a3;
@@ -127,20 +139,26 @@ header ul li a {
 }
 .card-img {
     width: 100%;
+    height: auto;
+
+   
 }
+
 .cards-content-big-text{
     font-weight: 600;
     font-size: 25px;
     margin: 10px;
-    text-align: center;
+    text-align: left;
     padding: 10px;
 }
+
 .card-content-text {
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 16px;
     line-height: 28px; 
-    text-align: center;
+    text-align: left;
     padding: 10px;
+    flex-grow: 1;
 }
 
 .box-of-links{
@@ -171,20 +189,55 @@ header ul li a {
 
 }
 .na{
-    margin: 30px 10% 30px 10%;
+    margin: 70px 10% 30px 10%;
     justify-content: space-around;
     align-items: center;
     display: flex;
+    flex-wrap:nowrap;
     position: absolute;
     z-index: 100;
     gap: 20px;
     padding: 30px;    
     font-size: 30px;
 }
-.info a{
-    justify-content:baseline;
 
-    font-size: 20px;
+.info {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align:center;
+    gap: 10px;
+}
+
+
+.info a{
+    font-size: 15px;
     color: rgb(16, 99, 176);
-    text-decoration: underline;
+    text-decoration:underline;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+.info i {
+    font-size:20px;
+
+}
+#one {
+    height: 40px;
+    width: 180px;
+}
+
+#two {
+    height: 40px;
+    width:74px;
+}
+
+#three {
+    height: 40px;
+    width:104px;
+}
+
+#four {
+    height:40px;
+    width:150px;
 }
