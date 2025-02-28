@@ -1,0 +1,8 @@
+<div *ngFor="let product of products">
+    <h3>{{ product.name }}</h3>
+    <p>{{ product.description }}</p>
+    <p>Price: ${{ product.price }}</p>
+    <button (click)="product.likes = product.likes + 1">Like ({{ product.likes }})</button>
+    <hr>
+  </div>
+  
