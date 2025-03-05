@@ -35,4 +35,5 @@ function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
+document.getElementById("title").innerText = "My list";
 showTask();

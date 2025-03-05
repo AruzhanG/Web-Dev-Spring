@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  footer img {
+    width: 50px; /* Adjust size */
+    margin: 0 10px;
+  }
